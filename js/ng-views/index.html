@@ -1,0 +1,5 @@
+
+<div ng-repeat="gram in vm.grams">
+  <a data-ui-sref="WDInstagramShow({id: $index})">{{gram.author}}</a>
+  <a data-ui-sref="WDInstagramUpdate({id: $index})">Edit</a>
+</div>
